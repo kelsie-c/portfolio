@@ -125,6 +125,7 @@ p {
 
 .grid {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
     grid-gap: 60px;
