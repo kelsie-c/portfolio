@@ -182,6 +182,29 @@ footer li {
     display: flex;
     list-style: none;
     margin: 10px;
-    padding-right: 15px;
-    
+    padding-right: 15px;  
+}
+
+@media (min-width: 500px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 850px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1240px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1625px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
