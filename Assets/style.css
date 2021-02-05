@@ -1,0 +1,187 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: navy;
+    background-size: cover;
+    padding-top: 25px;
+    padding-right: 15px;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav li a {
+    margin: 10px;
+    padding: 12px 22px;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 2px white;
+    transition: 0.2s box-shadow;
+    color: white;
+}
+
+nav li a:hover {
+    box-shadow: inset 0 0 0 4px white;
+    color: white;
+}
+
+nav li a:link, nav li a:visited, nav li a:active {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Literata', 'Petrona', 'Bree Serif', 'Crimson Pro', serif;
+    font-size: 44px;
+    background-color: navy;
+    background-size: cover;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+header img {
+    margin-right: 50px;
+}
+
+.intro {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: center;
+    background-color: wheat;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.langs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    justify-content: center;
+    background-color: wheat;
+}
+
+.langs .card {
+    display: flex;
+    width: 200px;
+    height: 150px;
+    margin: 1px 20px 30px 20px;
+    background-color: navy;
+    color: white;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-bottom: 5px;    
+}
+
+.langs .card h3 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.projects {
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    background-color:thistle;
+}
+
+.projects2 {
+    margin-top: 0px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    background-color: thistle;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 60px;
+    margin: 35px;
+}
+
+.grid div {
+    font-size: 16px;
+    font-weight: 400;
+    background: navy;
+    color: white;
+    transition: transform 0.2s;
+    width: 225px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(34, 34, 34);
+}
+
+.grid div:hover {
+    transform: scale(1.25);
+    box-shadow: 5px 5px 12px rgb(75, 74, 74);
+}
+
+.more-info {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    background-color: wheat;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 30px;
+    background-color: navy;
+    background-size: cover;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+footer h3 {
+    font-size: 30px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer li {
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    padding-right: 15px;
+    
+}
