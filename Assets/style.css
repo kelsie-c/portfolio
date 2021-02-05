@@ -27,7 +27,6 @@ nav li a {
 }
 
 nav li a:hover {
-    font-weight: 600;
     box-shadow: inset 0 0 0 4px white;
     color: white;
 }
@@ -60,19 +59,20 @@ header img {
     padding-bottom: 50px;
     padding-left: 18%;
     padding-right: 18%;
-    text-align: center;
+    text-align: left;
     background-color: wheat;
 }
 
 h2 {
     font-size: 30px;
     font-weight: 800;
+    text-align: center;
 }
 
 p {
     font-family: 'Lora', serif;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .langs {
@@ -127,7 +127,7 @@ p {
 .grid {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
     grid-gap: 60px;
     margin: 35px;
@@ -187,26 +187,20 @@ footer li {
     padding-right: 15px;  
 }
 
-@media (max-width: 830px) {
-    .grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-@media (max-width: 1230px) {
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 1610px) {
+@media screen and (max-width: 1470px) {
     .grid {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
-@media (max-width: 4096px) {
+@media screen and (max-width: 975px) {
     .grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
