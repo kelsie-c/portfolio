@@ -8,7 +8,7 @@ nav {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    color: rgb(34, 25, 112);
+    color: #224434;
     background-size: cover;
     padding-top: 25px;
     padding-right: 15px;
@@ -20,21 +20,21 @@ nav li a {
     margin: 10px;
     padding: 12px 22px;
     border-radius: 50px;
-    box-shadow: inset 0 0 0 2px rgb(34, 25, 112);
+    box-shadow: inset 0 0 0 2px #224434;
     transition: 0.2s box-shadow;
     color:rgb(34, 25, 112);
-    background-color: #d3d3d3;
+    background-color: #e0e0e0;
 }
 
 nav li a:hover {
-    box-shadow: inset 0 0 0 4px rgb(34, 25, 112);
+    box-shadow: inset 0 0 0 4px #224434;
     color: rgb(34, 25, 112);
 }
 
 nav li a:link, nav li a:visited, nav li a:active {
     text-decoration: none;
     font-size: 18px;
-    color: rgb(34, 25, 112);
+    color: #224434;
 }
 
 header {
@@ -42,9 +42,8 @@ header {
     flex-wrap: wrap;
     font-family: 'Literata', 'Petrona', 'Bree Serif', 'Crimson Pro', serif;
     font-size: 44px;
-    background-color: navy;
     background-size: cover;
-    color:  rgb(34, 25, 112);
+    color: #224434;
     justify-content: center;
     align-items: center;
     height: 600px;
@@ -65,7 +64,7 @@ header img {
 }
 
 h2 {
-    color:  rgb(34, 25, 112);
+    color: #224434;
     font-size: 30px;
     font-weight: 800;
     text-align: center;
@@ -76,7 +75,7 @@ p {
     font-family: 'Lora', serif;
     font-size: 18px;
     font-weight: 600;
-    color:  rgb(34, 25, 112);
+    color: #224434;
 }
 
 .langs {
@@ -91,15 +90,13 @@ p {
     background-color: #e0e0e0;
 }
 
-.langs .card {
-    
+.langs .card {    
     display: flex;
     width: 200px;
     height: 150px;
     margin: 1px 20px 30px 20px;
-    /* background-color:  rgb(34, 25, 112); */
-    border: 2px  rgb(34, 25, 112) solid;
-    color:  rgb(34, 25, 112);
+    border: 2px #224434 solid;
+    color: #224434;
     border-radius: 10px;
     padding-left: 25px;
     padding-bottom: 5px;    
@@ -147,28 +144,27 @@ p {
     position: relative;
     font-size: 16px;
     font-weight: 400;
-    /* background:  rgb(34, 25, 112); */
-    border: 2px  rgb(34, 25, 112) solid;
-    color:  rgb(34, 25, 112);
+    border: 2px #224434 solid;
+    color: #224434;
     text-align: left;
     transition: transform 0.2s;
     width: 225px;
     height: 200px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 3px 3px 3px rgb(34, 34, 34);
+    box-shadow: 3px 3px 3px #224434;
 }
 
 .card a:link, .card a:visited, .card a:active {
     text-decoration: none;
     font-size: 18px;
-    color:  rgb(34, 25, 112);
+    color: #224434;
 }
 
 .card-header {
     position: absolute;
     left: 25px;
-    padding-top: 150px;
+    padding-top: 135px;
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
     transition: 0.2s position;
@@ -188,7 +184,7 @@ p {
 .grid .card:hover {
     transform: scale(1.25);
     box-shadow: 5px 5px 12px rgb(75, 74, 74);
-    
+    background-color: #d7b5bb;
 }
 
 .grid .card:hover .hidden {
@@ -200,7 +196,7 @@ footer {
     flex-wrap: wrap;
     flex-direction: row;
     font-size: 30px;
-    background-color: rgb(34, 25, 112);
+    background-color: #224434;
     background-size: cover;
     color: white;
     justify-content: center;
