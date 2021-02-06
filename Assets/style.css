@@ -61,7 +61,7 @@ header img {
     padding-left: 18%;
     padding-right: 18%;
     text-align: left;
-    background-color: #e6e2d6;
+    background-color: #d1e0dd;
 }
 
 h2 {
@@ -88,10 +88,11 @@ p {
     padding-left: 15%;
     padding-right: 15%;
     justify-content: center;
-    background-color: #e6e2d6;
+    background-color: #d1e0dd;
 }
 
 .langs .card {
+    
     display: flex;
     width: 200px;
     height: 150px;
@@ -105,6 +106,8 @@ p {
 }
 
 .langs .card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
     display: flex;
     align-items: flex-end;
 }
@@ -116,7 +119,7 @@ p {
     padding-left: 15%;
     padding-right: 15%;
     text-align: center;
-    background-color: #d1e0dd;
+    background-color: #e6e2d6;
 }
 
 .projects2 {
@@ -127,7 +130,7 @@ p {
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
-    background-color: #d1e0dd;
+    background-color: #e6e2d6;
 }
 
 .grid {
