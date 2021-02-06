@@ -145,7 +145,7 @@ p {
     font-size: 16px;
     font-weight: 400;
     border: 2px #224434 solid;
-    color: #224434;
+    color: #d3d3d3;
     text-align: left;
     transition: transform 0.2s;
     width: 225px;
@@ -153,12 +153,13 @@ p {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px #224434;
+    background: #224434;
 }
 
 .card a:link, .card a:visited, .card a:active {
     text-decoration: none;
     font-size: 18px;
-    color: #224434;
+    color: #d3d3d3;
 }
 
 .card-header {
@@ -177,18 +178,24 @@ p {
     transition: 0.2s display;
 }
 
+.grid .card p {
+    color: #d3d3d3;
+}
+
 .grid .card:hover .card-header {
     padding-top: 0;
 }
 
 .grid .card:hover {
+    display: block;
     transform: scale(1.25);
     box-shadow: 5px 5px 12px rgb(75, 74, 74);
-    background-color: #d7b5bb;
+    background: #224434;
 }
 
 .grid .card:hover .hidden {
     display: block;
+    color: #d3d3d3;
 }
 
 footer {
@@ -198,7 +205,6 @@ footer {
     font-size: 30px;
     background-color: #224434;
     background-size: cover;
-    color: white;
     justify-content: center;
     align-items: center;
     height: 150px;
