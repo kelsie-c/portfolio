@@ -151,6 +151,12 @@ p {
     box-shadow: 3px 3px 3px rgb(34, 34, 34);
 }
 
+.card a:link, .card a:visited, .card a:active {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
 .card-header {
     position: absolute;
     left: 25px;
