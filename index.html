@@ -3,18 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Crimson+Pro:wght@200;300;400;500;600;700;800;900&family=Literata:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Petrona:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Assets/style.css">
     <link rel="shortcut icon" href="./Assets/Images/3d_design.png" type="image/x-icon">
     <title>Kelsie's Portfolio</title>
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Literata:ital@1&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Petrona:ital@1&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital@1&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
-    </style>
 
 </head>
 
@@ -25,9 +17,14 @@
         <li><a href="#Contact">Contact</a></li>
     </nav>
 
-    <header style="background-image: url(./Assets/Images/shapelined-_JBKdviweXI-unsplash.jpg)">
-        <img src="./Assets/Images/headshot1.png" alt="profile picture" width="250px" height="250px">
-        <h1><em>Hi, I'm Kelsie</em></h1>
+    <header style="background-image: url(./Assets/Images/trianglifyBackground.png)">
+        <!-- <img src="./Assets/Images/headshot1.png" alt="profile picture" width="250px" height="250px">
+        <h1><em>Hi, I'm Kelsie</em></h1> -->
+        <div class="bio">
+            <h1>Junior Web Developer</h1>
+            <h2>Hi! I'm Kelsie, a Junior Developer based in Columbus, Ohio</h2>
+            <img src='./Assets/Images/headshot1.png' class='imgBio'>
+        </div>
     </header>
 
     <section class="intro">
@@ -52,16 +49,80 @@
 
     <section class="langs">
         <div class="card">
-            <h3>HTML</h3>
+            <h3>Front-End</h3>
+            <p>
+                As part of my coursework, I have learned the foundations of Front-End
+                development. We quickly moved through HTML and CSS and on to JavaScript.
+                It has been fun and challenging to practically apply some of my design
+                and communication skills.
+            </p>
+            <h4>Languages</h4>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>JQuery</li>                
+            </ul>
+            <h4>Tools</h4>
+            <ul>
+                <li>DOM Manipulation</li>
+                <li>Bootstrap</li>
+                <li>Bulma</li>
+                <li>RESTful APIs</li>
+                <li>JSON</li>
+                <li>AJAX</li>
+            </ul>
         </div>
 
         <div class="card">
-            <h3>CSS</h3>
+            <h3>Back-End</h3>
+            <p>
+                The second phase of my coursework focuses on the back-end of websites and
+                applications. After learning the basic structure of how a browser reads code,
+                it is exciting to learn to run code without a browser and use it to change
+                files and applications from the command line.
+            </p>
+            <h4>Languages</h4>
+            <ul>
+                <li>Node.js</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>React</li>                
+            </ul>
+            <h4>Tools</h4>
+            <ul>
+                <li>To be added</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </div>
 
-        <div class="card">
-            <h3>JavaScript</h3>
-        </div>
+        <!-- <div class="card">
+            <h3>Learning</h3>
+            <p>
+                As part of my coursework, I have learned the foundations of Front-End
+                development. We quickly moved through HTML and CSS and on to JavaScript.
+                It has been fun and challenging to practically apply some of my design
+                and communication skills.
+            </p>
+            <h4>Languages</h4>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>JQuery</li>                
+            </ul>
+            <h4>Tools</h4>
+            <ul>
+                <li>Bootstrap</li>
+                <li>Bulma</li>
+                <li>RESTful APIs</li>
+                <li>JSON</li>
+                <li>AJAX</li>
+            </ul>
+        </div> -->
     </section>
 
     <section class="projects">
@@ -75,58 +136,71 @@
 
         <div class="grid">
             <!-- div for each card -->
-            <div class="card"><a href="https://kelsie-c.github.io/prework-about-me/">
-                <h3 class="card-header">Prework Project</h3>
-                <div class="hidden">
-                    <p>
-                        A simple HTML and CSS project completed before the start of class. 
-                        A humble reminder of my beginning.
-                    </p>
-                </div>
-                </a>                
-            </div>
 
-            <div class="card"><a href="https://scratch.mit.edu/projects/473074060/">
-                <h3 class="card-header">Epic Cat & Mouse</h3>
-                <div class="hidden">
-                    <p>
-                        A game of cat-and-mouse created in Scratch to demonstrate the basics
-                        of programming logic.
-                    </p>
-                </div>
-            </a>                
+            <div class="card" style="background-image: url('./Assets/Images/HungryHungryHiker.png'); background-size: cover;">
+                <a href="https://kelsie-c.github.io/national-parks/" target="_blank">
+                <h3 class="card-header">Hungry Hungry Hiker</h3>
+                </a>
             </div>
-
-            <div class="card"><a href="https://codepen.io/kelsie-c/pen/ExNPPyJ">
-                <h3 class="card-header">Pixel Art Play</h3>
-                <div class="hidden">
-                    <p>
-                        A live pixel art board created in a workshop using CodePen. This 
-                        project used HTML, CSS and JavaScript.
-                    </p>
-                </div>   
+            
+            <div class="card" style="background-image: url('./Assets/Images/weatherDash.png'); background-size: cover;">
+                <a href="https://kelsie-c.github.io/weather-dashboard/" target="_blank">
+                <h3 class="card-header">Weather Dashboard</h3>
+                </a>
+            </div>
+            
+            <div class="card" style="background-image: url('./Assets/Images/workSchedule.png'); background-size: cover;">
+                <a href="https://kelsie-c.github.io/work-day-scheduler/" target="_blank">
+                <h3 class="card-header">Workday Scheduler</h3>
                 </a>
             </div>
 
+            <div class="card" style="background-image: url('./Assets/Images/codeQuiz.png'); background-size: cover;">
+                <a href="https://kelsie-c.github.io/code-quiz/" target="_blank">
+                <h3 class="card-header">Code Quiz</h3>
+                </a>
+            </div>
+
+            <div class="card" style="background-image: url('./Assets/Images/generatePassword.png'); background-size: cover;">
+                <a href="https://kelsie-c.github.io/password-generator-by-kelsie/" target="_blank">
+                <h3 class="card-header">Password Generator</h3>
+                </a>
+            </div>
+            
+            <div class="card" style="background-image: url('./Assets/Images/raycast-untitled.png'); background-size: cover;">
+                <a href="https://codepen.io/kelsie-c/pen/ExNPPyJ" target="_blank">
+                <h3 class="card-header">Pixel Art Play</h3>
+                </a>
+            </div>
+
+            <div class="card" style="background-image: url('./Assets/Images/scratch-program-preview.png'); background-size: cover;">
+                <a href="https://scratch.mit.edu/projects/473074060/" target="_blank">
+                <h3 class="card-header">Epic Cat & Mouse</h3>
+                </a>                
+            </div>
+
+            <div class="card" style="background-image: url('./Assets/Images/prework-screenshot-preview.png'); background-size: cover;">
+                <a href="https://kelsie-c.github.io/prework-about-me/" target="_blank">
+                <h3 class="card-header">Prework Project</h3>
+                </a>                
+            </div>
+
             <div class="card">
-                <h3 class="card-header">Coming Soon!</h3>
-                <div class="hidden">
-                    <p>
-                        More projects coming soon! Check out my GitHub below to see what
-                        I'm up to!
-                    </p>
-                </div>                
+                <h3 class="card-header">Coming Soon!</h3>   
             </div>
 
         </div>
     </section>
 
-    <!-- <section class="more-info">
-        <h2>More About Me</h2>
-        <p>
-            fun facts, interesting tidbits, a little background
-        </p>
-    </section> -->
+    <section class="resume">
+        <div>            
+            <a href="./Assets/Kelsie.Cummings_Resume.pdf" download>
+                <p style="text-align: center;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1F2133" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 9l-5 5-5-5M12 12.8V2.5"/></svg><h3>Download my resume!</h3>
+                </p>               
+            </a>
+        </div>
+    </section>
 
     <footer>
         <h3><a name="Contact">Contact</a></h3>
